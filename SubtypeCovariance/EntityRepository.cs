@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace SubtypeCovariance
-{
-    public class EntityRepository
-    {
-        public virtual Entity GetByID(Guid id)
-        {
-            return new Entity(id);
-        }
-    }
-}
+//namespace SubtypeCovariance
+//{
+//    public class IEntityRepository
+//    {
+//        public virtual Entity GetByID(Guid id)
+//        {
+//            return new Entity(id);
+//        }
+//    }
+//}
